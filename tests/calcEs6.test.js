@@ -1,4 +1,4 @@
-const Сalculator = require("../Calculator");
+const Сalculator = require("../СalculatorEs6");
 
 const testVal = 55;
 const testCase1 = [1, 2, 3];
@@ -48,5 +48,5 @@ test("Умножение на строку", () => {
 });
 
 test("Деление на 0", () => {
-  expect(() => calc.div(1, 0, 3)).toThrow("Error! Division by zero!");
+  expect(() => calc.div(1, 0, 3)).toThrow();
 });

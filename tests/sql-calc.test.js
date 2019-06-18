@@ -2,7 +2,7 @@ const SqlCalc = require("../SqlCalsEs5");
 
 let myCalculator = new SqlCalc(100);
 
-test("", () => {
+test("sum", () => {
   expect(myCalculator.sum(1, 2, 3)).toBe(11236);
 });
 
