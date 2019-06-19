@@ -1,4 +1,4 @@
-const Сalculator = require("../СalculatorEs6");
+const Сalculator = require("../Сalculator");
 
 const testVal = 55;
 const testCase1 = [1, 2, 3];

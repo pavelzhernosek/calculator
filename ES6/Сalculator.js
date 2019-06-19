@@ -49,7 +49,4 @@ class Сalculator {
   }
 };
 
-let calc = new Сalculator(55);
-console.log(calc.mul(1, 2, 3));
-
 module.exports = Сalculator;

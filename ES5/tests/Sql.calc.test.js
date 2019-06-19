@@ -1,4 +1,4 @@
-const SqlCalc = require("../SqlCalsEs5");
+const SqlCalc = require("../Sql.calc");
 
 let myCalculator = new SqlCalc(100);
 
